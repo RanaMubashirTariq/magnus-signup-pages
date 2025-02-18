@@ -1,30 +1,26 @@
-.signup-main-container{
+.signin-main-container{
     max-width: 100%;
-    /* height: 1024px; */
     display: flex;
     box-sizing: border-box;
 }
-.signup-right-div{
+.signin-right-div{
     max-width: 690px;
-    /* height: 1024px; */
     background: rgb(252, 254, 251);
     box-sizing: border-box;
 }
-.signup-right-inner-div{
-    /* width: 100%; */
+.signin-right-inner-div{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 80px 130px 14px 130px;
+    padding: 237.5px 130px 236.5px 130px;
 }
-.signup-right-inner-top-div{
-    /* width: 100%; */
+.signin-right-inner-top-div{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px 20px 50px 20px;
 }
-.signup-right-inner-detail-d{
+.signin-right-inner-detail-d{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -32,7 +28,7 @@
     gap: 15px;
     padding-top: 40px;
 }
-.signup-right-inner-detail-d h2{
+.signin-right-inner-detail-d h2{
     font-family: Montserrat;
     font-weight: 600;
     font-size: 25px;
@@ -42,7 +38,7 @@
     color: rgba(30, 30, 36, 1);
     margin: 0;    
 }
-.signup-right-inner-detail-d p{
+.signin-right-inner-detail-d p{
     max-width: 390px;
     font-family: Montserrat;
     font-weight: 400;
@@ -53,9 +49,10 @@
     color: rgba(142, 142, 142, 1);
     margin: 0;    
 }
-.signup-right-inner-bottom-div{
+.signin-right-inner-bottom-div{
     max-width: 430px;
-    height: 587px;
+    height: 207px;
+    /* height: 587px; */
     /* box-sizing: border-box; */
     display: flex;
     flex-direction: column;
@@ -77,12 +74,6 @@
     color: rgba(30, 30, 36, 1);
     margin: 0;    
 }
-.icon-d{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
 .label-input-div input{
     width: 430px;
     border-radius: 12px;
@@ -90,9 +81,8 @@
     font-size: 14px;
     background: rgba(251, 251, 251, 1);
     border: 1px solid rgba(240, 240, 240, 1);
-    flex: 1;
-    
 }
+
 .label-input-div input::-ms-reveal,
 .label-input-div input::-ms-clear {
   display: none;
@@ -111,7 +101,8 @@
     display: flex;
     align-content: center;
     width: 20px;
-    /* height: 100%;  */
+    height: 100%;
+    
 }
 .icon-d .fa-solid{
     width: 20px;
@@ -125,16 +116,8 @@
 }
 .label-input-div1{
     max-width: 430px;
-    display: flex;
-    align-items: center;
-    gap: 5px;
 }
-.box{
-    width: 14px;
-    height: 14px;
-    /* font-size: 14px; */
-}
-.label-input-div1 p{
+.label-input-div1 a{
     font-family: Montserrat;
     font-weight: 500;
     font-size: 14px;
@@ -143,7 +126,7 @@
     color: rgba(30, 30, 36, 1);
     margin: 0;   
 }
-.signup-btn{
+.signin-btn{
     max-width: 430px;
     display: flex;
     align-items: center;
@@ -156,14 +139,10 @@
     font-size: 15px;
     font-family: Montserrat;
 }
-.signup-btn a{
-    text-decoration: none;
-    color: white;
-}
-.signup-btn:hover{
+.signin-btn:hover{
     opacity: 90%;
 }
-.signup-bottom-last-div{
+.signin-bottom-last-div{
     width: 100%;
     height: 81px;
     display: flex;
@@ -172,13 +151,13 @@
     gap: 16px;
     margin-top: 50px;
 }
-.signup-bottom-last-div-link{
+.signin-bottom-last-div-link{
     width: 100%;
     display: flex;
     justify-content: center;
     gap: 5px;
 }
-.signup-bottom-last-div-link p{
+.signin-bottom-last-div-link p{
     font-family: Montserrat;
     font-weight: 500;
     font-size: 14px;
@@ -187,7 +166,7 @@
     color: rgba(30, 30, 36, 1);
     margin: 0;
 }
-.signup-bottom-last-div-link a{
+.signin-bottom-last-div-link a{
     font-family: Montserrat;
     font-weight: 700;
     font-size: 14px;
@@ -199,29 +178,32 @@
 
 
 
+
+
+
 /*  part 2 */
 
-.signup-left-varificaton-code{
+.signin-left-varificaton-code{
     max-width: 750px;
     background: rgba(236, 237, 241, 1);
 }
-.signup-left-div-pic{
+.signin-left-div-pic{
      width: 100%;
-     padding: 62px 85px 48.5px 115px;
+     padding: 28px 38px 48.5px 100px;
 }
-.signup-left-descripton{
+.signin-left-descripton{
     /* width: 489px; */
     padding: 0px 131px 146.5px 130px;
     /* height: 193; */ 
 }
-.signup-left-description-detail{
+.signin-left-description-detail{
     max-width: 489px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
-.signup-left-description-detail h2{
+.signin-left-description-detail h2{
     font-family: Montserrat;
     font-weight: 700;
     font-size: 35px;
@@ -231,7 +213,7 @@
     Color: rgba(30, 30, 36, 1);
     margin: 0;    
 }
-.signup-left-description-detail p{
+.signin-left-description-detail p{
     width: 460px;
     font-family: Montserrat;
     font-weight: 400;
@@ -242,71 +224,74 @@
     color: rgba(142, 142, 142, 1);
     margin: 0;    
 }
-.slider2-div{
+/* .slider2-div{
     width: 100%;
     padding: 40px 212.5px 0px 212.5px;
-}
+} */
+
+
 
 
 @media screen and (max-width:1300px) {
-    .signup-right-div{
+    .signin-right-div{
         max-width: 600px;
         /* height: 1024px; */
         background: rgb(252, 254, 251);
         box-sizing: border-box;
     }
-    .signup-right-inner-div{
+    .signin-right-inner-div{
         /* width: 100%; */
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 80px 80px 14px 80px;
+        padding: 170.5px 100px 170.5px 100px;
     }
-    .signup-right-inner-top-div{
+    .signin-right-inner-top-div{
         /* width: 100%; */
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 0px 10px 30px 10px;
     }
-    .signup-left-varificaton-code{
+    .signin-left-varificaton-code{
         /* width: 100%; */
     max-width: 666px;
     background: rgba(236, 237, 241, 1);
 }
-.signup-left-div-pic{
-     width: 100%;
-     padding: 40px 65px 48.5px 95px;
+.signin-left-div-pic img{
+    width: 100%;
 }
-.signup-left-descripton{
-    /* width: 489px; */
+.signin-left-descripton{
     padding: 0px 100px 148.5px 100px;
-    /* height: 193; */ 
+}
+.signin-left-varificaton-code{
+    max-width: 656.5px;
+    background: rgba(236, 237, 241, 1);
+}
+.signin-left-div-pic{
+     width: 100%;
+     padding: 28px 38px 48.5px 100px;
 }
 }
 
 
 
 @media screen and (max-width:1024px) {
-    .signup-right-div{
+    .signin-right-div{
         max-width: 500px;
     }
-    .signup-right-inner-div{
-        padding: 40px 50px 14px 50px;
+    .signin-right-inner-div{
+        padding: 170.5px 100px 170.5px 100px;
     }
-    .signup-right-inner-top-div{
-        padding: 0px 10px 30px 10px;
-    }
-.signup-right-inner-detail-d h2{
+.signin-right-inner-detail-d h2{
     font-size: 25px;
 }
-.signup-right-inner-detail-d p{
+.signin-right-inner-detail-d p{
     max-width: 390px;
     font-size: 14px !important;
 }
-.signup-right-inner-bottom-div{
+.signin-right-inner-bottom-div{
     max-width: 390px;
-    height: 587px;
 }
 .label-input-div input{
     width: 360px !important;
@@ -317,33 +302,31 @@
 
    /* part 2 */
 
-   .signup-left-varificaton-code{
+   .signin-left-varificaton-code{
     max-width: 550px;
     background: rgba(236, 237, 241, 1);
 }
-.signup-left-div-pic{
+.signin-left-div-pic{
      width: 100%;
      padding: 40px 45px 48.5px 55px;
 }
-.signup-left-div-pic img{
+.signin-left-div-pic img{
     width: 450px;
 }
-.signup-left-descripton{
-    /* width: 489px; */
+.signin-left-descripton{
     padding: 50px 50px 148.5px 50px;
-    /* height: 193; */ 
 }
-.signup-left-description-detail{
+.signin-left-description-detail{
     max-width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
-.signup-left-description-detail h2{
+.signin-left-description-detail h2{
     font-size: 28px;  
 }
-.signup-left-description-detail p{
+.signin-left-description-detail p{
     width: 400px;
     font-size: 12px;  
 }
@@ -355,25 +338,24 @@
 
 
 @media screen and (max-width:990px) {
-    .signup-right-div{
-        max-width: 450px;
+    .signin-right-div{
+        max-width: 460px;
     }
-    .signup-right-inner-div{
-        padding: 30px 25px 14px 25px;
+    .signin-right-inner-div{
+        padding: 130.5px 50px 130.5px 50px;
     }
-    .signup-right-inner-top-div{
+    .signin-right-inner-top-div{
         padding: 0px 10px 30px 10px;
     }
-.signup-right-inner-detail-d h2{
+.signin-right-inner-detail-d h2{
     font-size: 22px;
 }
-.signup-right-inner-detail-d p{
+.signin-right-inner-detail-d p{
     max-width: 360px;
     font-size: 14px !important;
 }
-.signup-right-inner-bottom-div{
+.signin-right-inner-bottom-div{
     max-width: 350px;
-    height: 587px;
 }
 .label-input-div input{
     width: 350px !important;
@@ -384,34 +366,34 @@
 
    /* part 2 */
 
-   .signup-left-varificaton-code{
+   .signin-left-varificaton-code{
     max-width: 481px;
     background: rgba(236, 237, 241, 1);
 }
-.signup-left-div-pic{
+.signin-left-div-pic{
      width: 100%;
      padding: 40px 25px 48.5px 25px;
 }
-.signup-left-div-pic img{
+.signin-left-div-pic img{
     width: 400px;
 }
-.signup-left-descripton{
+.signin-left-descripton{
     /* width: 489px; */
     padding: 50px 25px 148.5px 25px;
     /* height: 193; */ 
 }
-.signup-left-description-detail{
+.signin-left-description-detail{
     max-width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
-.signup-left-description-detail h2{
+.signin-left-description-detail h2{
     font-size: 24px;  
     line-height: 32.5px;
 }
-.signup-left-description-detail p{
+.signin-left-description-detail p{
     width: 300px;
     font-size: 12px;  
 }
@@ -424,25 +406,25 @@
 
 
 @media screen and (max-width:860px) {
-    .signup-right-div{
-        max-width: 450px;
+    .signin-right-div{
+        max-width: 400px;
     }
-    .signup-right-inner-bottom-div{
+    .signin-right-inner-bottom-div{
         gap: 15px;
     }
                 /* part 2 */
-   .signup-left-varificaton-code{
-    max-width: 451px;
+   .signin-left-varificaton-code{
+    max-width: 453px;
     background: rgba(236, 237, 241, 1);
 }
-.signup-left-div-pic{
+.signin-left-div-pic{
      width: 100%;
      padding: 40px 25px 48.5px 25px;
 }
-.signup-left-div-pic img{
+.signin-left-div-pic img{
     width: 400px;
 }
-.signup-bottom-last-div{
+.signin-bottom-last-div{
     margin-top: 30px;
 }
 }
@@ -451,38 +433,37 @@
 
 
 @media screen and (max-width:830px) {
-    .signup-right-div{
+    .signin-right-div{
         max-width: 420px;
     }
-    .signup-right-inner-bottom-div{
+    .signin-right-inner-bottom-div{
        gap: 15px;
     }
                 /* part 2 */
-   .signup-left-varificaton-code{
+   .signin-left-varificaton-code{
     max-width: 400px;
     background: rgba(236, 237, 241, 1);
 }
-.signup-left-div-pic{
+.signin-left-div-pic{
      width: 100%;
      padding: 40px 20px 48.5px 20px;
 }
-.signup-left-div-pic img{
+.signin-left-div-pic img{
     width: 370px;
 }
-.signup-right-inner-detail-d p{
+.signin-right-inner-detail-d p{
     max-width: 340px;
     font-size: 14px !important;
 }
-.signup-right-inner-bottom-div{
+.signin-right-inner-bottom-div{
     max-width: 340px;
-    height: 587px;
 }
 .label-input-div input{
     width: 320px !important;
     padding: 16px 10px;
     font-size: 14px;
 }
-.signup-left-description-detail{
+.signin-left-description-detail{
     width: 100%;
     /* max-width: 350px; */
     display: flex;
@@ -490,11 +471,11 @@
     align-items: center;
     gap: 20px;
 }
-.signup-left-description-detail h2{
+.signin-left-description-detail h2{
     font-size: 24px;  
     line-height: 32.5px;
 }
-.signup-left-description-detail p{
+.signin-left-description-detail p{
     width: 300px;
     font-size: 12px;  
 }
@@ -504,54 +485,47 @@
 
 
 @media screen and (max-width:770px) {
-    .signup-main-container{
+    .signin-main-container{
          overflow: hidden;
     }
-    .signup-right-div{
+    .signin-right-div{
         max-width: 380px;
     }
-    .signup-right-inner-bottom-div{
+    .signin-right-inner-bottom-div{
        gap: 15px;
     }
-    .toggle-btn{
-        position: absolute;
-        top: 10px !important;
-        right: 14px;
-        /* height: 100%;  */
-    }
                 /* part 2 */
-   .signup-left-varificaton-code{
+   .signin-left-varificaton-code{
     max-width: 420px;
     background: rgba(236, 237, 241, 1);
 }
-.signup-left-div-pic{
+.signin-left-div-pic{
      width: 100%;
      padding: 40px 20px 48.5px 20px;
 }
-.signup-left-div-pic img{
+.signin-left-div-pic img{
     width: 330px;
 }
-.signup-right-inner-detail-d p{
+.signin-right-inner-detail-d p{
     max-width: 300px;
     font-size: 14px !important;
 }
-.signup-right-inner-bottom-div{
+.signin-right-inner-bottom-div{
     max-width: 300px;
-    height: 587px;
 }
 .label-input-div input{
     width: 280px !important;
     padding: 12px 10px;
     font-size: 12px;
 }
-.signup-left-description-detail{
+.signin-left-description-detail{
     gap: 20px;
 }
-.signup-left-description-detail h2{
+.signin-left-description-detail h2{
     font-size: 24px;  
     line-height: 32.5px;
 }
-.signup-left-description-detail p{
+.signin-left-description-detail p{
     width: 300px;
     font-size: 12px;  
 }
@@ -559,13 +533,11 @@
     width: 100%;
     padding: 40px 100.5px 14px 140.5px !important;
 }
-.signup-bottom-last-div{
-    margin-top: 30px;
-}
 }
 
 @media screen and (max-width:600px) {
-    .signup-main-container{
+
+    .signin-main-container{
         max-width: 100%;
         /* height: 1024px; */
         display: flex;
@@ -573,57 +545,78 @@
         align-items: center;
         box-sizing: border-box;
     }
-    .signup-right-div{
+    .signin-right-inner-div{
+        padding: 40.5px 25px 40.5px 25px;
+    }
+    .signin-right-div{
         max-width: 100%;
     }
-    .signup-right-inner-detail-d p{
+    .signin-right-inner-detail-d p{
         max-width: 100%;
         font-size: 14px !important;
     }
-    .signup-right-inner-bottom-div{
+    .signin-right-inner-bottom-div{
         max-width: 100%;
-        height: 587px;
     }
     .label-input-div input{
         width: 100% !important;
     }
-    .signup-left-varificaton-code{
+    .signin-left-varificaton-code{
         max-width: 100%;
         background: rgba(236, 237, 241, 1);
         margin-top: 50px;
     }
-   .signup-left-div-pic img{
+   .signin-left-div-pic img{
        width: 100%;
    }
-   .signup-left-descripton{
-    padding: 0px 25px 46.5px 90px;
+   .signin-left-descripton{
+    padding: 0px 25px 46.5px 25px;
 }
-.signup-bottom-last-div{
+.signin-bottom-last-div{
     margin-top: 30px;
 }
 }
 
-
-
-@media screen and (max-width:360px) {
-    .signup-right-inner-detail-d h2{
-        font-size: 18px !important;    
+@media  screen and (min-width:480px) and (max-width:530px) {
+    .signin-left-descripton{
+        padding: 0px 25px 46.5px 70px;
     }
-    .signup-right-inner-detail-d p{
+    .signin-right-inner-detail-d p{
+        max-width: 340px;
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .signin-right-inner-detail-d{
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        padding-top: 20px;
+    }
+    .signin-right-inner-detail-d h2{
+        font-size: 20px;    
+    }
+    .signin-right-inner-detail-d p{
+        width: 300px;
         font-size: 12px !important;  
     }
-   .signup-left-description-detail{
+   .signin-left-div-pic img{
+       width: 100%;
+   }
+   .signin-left-description-detail{
     gap: 5px;
     margin: 50px 25px 30px 25px;
    }
-   .signup-left-description-detail h2{
-    font-size: 20px !important;   
+   .signin-left-description-detail h2{
+    font-size: 18px;   
 }
-.signup-left-description-detail p{
+.signin-left-description-detail p{
     font-size: 12px;  
 }
-   .signup-left-descripton{
+   .signin-left-descripton{
     padding: 0px 50px 46.5px 0px;
 }
 }
