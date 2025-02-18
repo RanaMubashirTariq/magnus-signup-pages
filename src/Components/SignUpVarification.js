@@ -43,7 +43,7 @@ export default function SignUpVarification() {
           setShowBox(true);
           setTimeout(() => {
             setShowBox(false);
-            alert("Verification successful! 🎉");
+            alert("Verification successful!");
           }, 2000);
         } else {
           alert("Invalid verification code. Please try again.");

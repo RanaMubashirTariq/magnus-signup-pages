@@ -8,16 +8,15 @@ import {BrowserRouter as Router , Route, Routes} from 'react-router-dom'
 function App() {
   return (
      <dic className='App'>
-    {/* <Router>
+    <Router>
              <Routes>
              <Route path='/' element={<SignUpPage/>}/>
                   <Route path='/SignUpPage' element={<SignUpPage/>}/>
                   <Route path='/SignInPage' element={<SignInPage/>}/>
                   <Route path='/SignUpVarification' element={<SignUpVarification/>}/>
              </Routes>
-    </Router> */}
+    </Router>
 
-    <SignUpVarification/>
      </dic>
   );
 }
