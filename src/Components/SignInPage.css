@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .signin-right-div{
-    max-width: 690px;
+    /* width: 50%; */
     background: rgb(252, 254, 251);
     box-sizing: border-box;
 }
@@ -184,7 +184,7 @@
 /*  part 2 */
 
 .signin-left-varificaton-code{
-    max-width: 750px;
+    /* width: 50%; */
     background: rgba(236, 237, 241, 1);
 }
 .signin-left-div-pic{
