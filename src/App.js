@@ -16,8 +16,6 @@ function App() {
                   <Route path='/SignUpVarification' element={<SignUpVarification/>}/>
              </Routes>
     </Router>
-    {/* <SignUpVarification/> */}
-    {/* <SignInPage/> */}
 
      </div>
   );

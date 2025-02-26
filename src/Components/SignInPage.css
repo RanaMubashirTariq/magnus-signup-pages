@@ -44,7 +44,7 @@
     max-width: 390px;
     font-family: Montserrat;
     font-weight: 400;
-    font-size: 15px !important;
+    font-size: 15px;
     line-height: 21px;
     letter-spacing: 0px;
     text-align: center;
@@ -290,13 +290,13 @@
 }
 .signin-right-inner-detail-d p{
     max-width: 390px;
-    font-size: 14px !important;
+    font-size: 14px ;
 }
 .signin-right-inner-bottom-div{
     max-width: 390px;
 }
 .label-input-div input{
-    width: 360px !important;
+    width: 360px ;
     padding: 16px 24px;
     font-size: 14px;
 }
@@ -340,19 +340,19 @@
 
 
 @media screen and (max-width:1000px) {
-    .signin-main-container{
+    /* .signin-main-container{
         display: flex;
         justify-content: center;
-        /* overflow-x: hidden; */
-    }
+        overflow-x: hidden;
+    } */
     .signin-right-div{
         max-width:100%;
         margin: 0 auto;
-        /* box-sizing: border-box; */
+        box-sizing: border-box;
     }
     .signin-right-inner-div{
-        /* padding: 70.5px 50px 70.5px 50px; */
-        box-sizing: border-box;
+        padding: 70.5px 50px 70.5px 50px;
+
     }
     .signin-right-inner-detail-d{
         gap: 10px;
@@ -360,18 +360,14 @@
     }
 .signin-right-inner-detail-d p{
     max-width: 420px;
-    font-size: 12px !important;
+    font-size: 12px ;
 }
 .signin-right-inner-bottom-div{
     max-width: 350px;
     gap: 10px;
 }
-/* .label-input-div{
-    width: 350px;
-    padding: 16px 10px !important;
-} */
-.label-input-div input{
-    width: 100% !important;
+.label-input-div{
+    width: 100% ;
     padding: 16px 10px;
     font-size: 14px;
 }
@@ -379,40 +375,53 @@
     margin-left: 17px;
 }
 .signin-btn{
-    max-width: 320px;
+    max-width: 300px;
     gap: 5px;
     padding: 19px 8px;
 }
 .signin-bottom-last-div button{
-    margin: 30px 0px 0px 15px;
-    /* margin-right: auto; */
+    margin: 30px 0px 0px 10px;
 }
-   /* part 2 */
 
    .signin-left-varificaton-code{
     display: none;
 }
 }
 
+@media screen and (max-width:700px) {
+    .signin-btn{
+        max-width: 100%;
+        gap: 5px;
+        padding: 19px 8px;
+    }
+    .signin-bottom-last-div button{
+        margin: 30px 0px 0px 10px;
+    }
+}
 
 
 
 @media screen and (max-width:600px) {
+      .signin-main-container{
+        overflow: hidden;
+    }
     .signin-right-inner-div{
         padding: 30.5px 25px 30.5px 25px;
+        box-sizing: border-box;
     }
     .signin-right-div{
-        max-width: 100% !important;
+        max-width: 420px;
     }
     .signin-right-inner-detail-d p{
-        max-width: 100%;
-        font-size: 13px !important;
+        max-width: 350px;
+        font-size: 13px;
     }
     .signin-right-inner-bottom-div{
         max-width: 100%;
+        gap: 5px;
     }
-    .label-input-div input{
-        width: 100% !important;
+    .label-input-div{
+        width: 100%;
     }
 .signin-bottom-last-div{
     margin-top: 30px;
@@ -420,7 +429,7 @@
 }
 
 
-@media screen and (max-width:380px) {
+@media screen and (max-width:390px) {
     .signin-right-inner-detail-d{
         width: 100%;
         display: flex;
@@ -434,17 +443,38 @@
     }
     .signin-right-inner-detail-d p{
         width: 300px;
-        font-size: 12px !important;  
+        font-size: 12px;  
     }
     .signin-right-inner-div{
         padding: 30.5px 25px 30.5px 25px;
     }
+    .signin-btn{
+        max-width: 340px;
+        gap: 5px;
+        padding: 19px 8px;
+    }
 }
 
-@media screen and (max-width:344px) {
+@media screen and (max-width:390px) {
+    .signin-right-inner-div{
+        padding: 30.5px 15px 30.5px 15px;
+    }
+    .signin-btn{
+        max-width: 340px;
+        gap: 5px;
+        padding: 19px 8px;
+    }
+}
+
+@media screen and (max-width:360px) {
 
     .signin-right-inner-div{
-        padding: 30.5px 10px 30.5px 15px !important;
+        padding: 30.5px 10px 30.5px 10px;
+    }
+    .signin-btn{
+        max-width: 260px;
+        gap: 5px;
+        padding: 19px 8px;
     }
 }
 
