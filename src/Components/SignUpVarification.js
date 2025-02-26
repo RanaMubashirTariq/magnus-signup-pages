@@ -74,7 +74,7 @@ export default function SignUpVarification() {
                                                   value={digit}
                                                   onChange={(e) => handleChange(index, e.target.value)}
                                                   onKeyDown={(e) => handleKeyDown(index, e)}
-                                                  className="label-input-div-2"
+                                                  className="label-v-input-div-2"
                                                 />
                                               ))}
                             </div>    

@@ -3,6 +3,7 @@
     /* height: 1024px; */
     display: flex;
     box-sizing: border-box;
+    overflow: hidden;
 }
 .signup-right-div{
     max-width: 690px;
@@ -287,7 +288,7 @@
 
 
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1026px) {
     .signup-right-div{
         max-width: 500px;
     }
@@ -354,15 +355,20 @@
 }
 
 
-@media screen and (max-width:990px) {
+@media screen and (max-width:1000px) {
     .signup-right-div{
-        max-width: 450px;
+        max-width: 850px;
+        margin: 0 auto;
     }
     .signup-right-inner-div{
-        padding: 30px 25px 14px 25px;
+        padding: 70px 50px 14px 50px;
     }
     .signup-right-inner-top-div{
-        padding: 0px 10px 30px 10px;
+        padding: 0px 10px 20px 10px;
+    }
+    .signup-right-inner-detail-d{
+        gap: 10px;
+        padding-top: 20px;
     }
 .signup-right-inner-detail-d h2{
     font-size: 22px;
@@ -372,206 +378,60 @@
     font-size: 14px !important;
 }
 .signup-right-inner-bottom-div{
-    max-width: 350px;
-    height: 587px;
+    max-width: 100%;
+    height: 400px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.label-input-div{
+    max-width: 320px !important;
 }
 .label-input-div input{
-    width: 350px !important;
-    padding: 16px 10px;
+    max-width: 300px !important;
+    padding: 16px 10px !important;
     font-size: 14px;
 }
-
+.label-input-div1{
+   padding-left: 10px;
+}
+.signup-btn{
+    max-width: 270px;
+    gap: 5px;
+    padding: 19px 8px;
+    margin-left: 20px;
+}
+.signup-bottom-last-div-link{
+    max-width: 320px;
+    justify-content: center;
+    gap: 5px;
+}
+.signup-bottom-last-div{
+    gap: 12px;
+    margin-top: 20px;
+}
 
    /* part 2 */
 
    .signup-left-varificaton-code{
-    max-width: 481px;
-    background: rgba(236, 237, 241, 1);
-}
-.signup-left-div-pic{
-     width: 100%;
-     padding: 40px 25px 48.5px 25px;
-}
-.signup-left-div-pic img{
-    width: 400px;
-}
-.signup-left-descripton{
-    /* width: 489px; */
-    padding: 50px 25px 148.5px 25px;
-    /* height: 193; */ 
-}
-.signup-left-description-detail{
-    max-width: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
-.signup-left-description-detail h2{
-    font-size: 24px;  
-    line-height: 32.5px;
-}
-.signup-left-description-detail p{
-    width: 300px;
-    font-size: 12px;  
-}
-.slider2-div{
-    width: 100%;
-    margin: 0 auto;
-}
-}
-
-
-
-@media screen and (max-width:860px) {
-    .signup-right-div{
-        max-width: 450px;
-    }
-    .signup-right-inner-bottom-div{
-        gap: 15px;
-    }
-                /* part 2 */
-   .signup-left-varificaton-code{
-    max-width: 451px;
-    background: rgba(236, 237, 241, 1);
-}
-.signup-left-div-pic{
-     width: 100%;
-     padding: 40px 25px 48.5px 25px;
-}
-.signup-left-div-pic img{
-    width: 400px;
-}
-.signup-bottom-last-div{
-    margin-top: 30px;
+    display: none;
 }
 }
 
 
 
 
-@media screen and (max-width:830px) {
-    .signup-right-div{
-        max-width: 420px;
-    }
-    .signup-right-inner-bottom-div{
-       gap: 15px;
-    }
-                /* part 2 */
-   .signup-left-varificaton-code{
-    max-width: 400px;
-    background: rgba(236, 237, 241, 1);
-}
-.signup-left-div-pic{
-     width: 100%;
-     padding: 40px 20px 48.5px 20px;
-}
-.signup-left-div-pic img{
-    width: 370px;
-}
-.signup-right-inner-detail-d p{
-    max-width: 340px;
-    font-size: 14px !important;
-}
-.signup-right-inner-bottom-div{
-    max-width: 340px;
-    height: 587px;
-}
-.label-input-div input{
-    width: 320px !important;
-    padding: 16px 10px;
-    font-size: 14px;
-}
-.signup-left-description-detail{
-    width: 100%;
-    /* max-width: 350px; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
-.signup-left-description-detail h2{
-    font-size: 24px;  
-    line-height: 32.5px;
-}
-.signup-left-description-detail p{
-    width: 300px;
-    font-size: 12px;  
-}
-}
-
-
-
-
-@media screen and (max-width:770px) {
-    .signup-main-container{
-         overflow: hidden;
-    }
-    .signup-right-div{
-        max-width: 380px;
-    }
-    .signup-right-inner-bottom-div{
-       gap: 15px;
-    }
-    .toggle-btn{
-        position: absolute;
-        top: 10px !important;
-        right: 14px;
-        /* height: 100%;  */
-    }
-                /* part 2 */
-   .signup-left-varificaton-code{
-    max-width: 420px;
-    background: rgba(236, 237, 241, 1);
-}
-.signup-left-div-pic{
-     width: 100%;
-     padding: 40px 20px 48.5px 20px;
-}
-.signup-left-div-pic img{
-    width: 330px;
-}
-.signup-right-inner-detail-d p{
-    max-width: 300px;
-    font-size: 14px !important;
-}
-.signup-right-inner-bottom-div{
-    max-width: 300px;
-    height: 587px;
-}
-.label-input-div input{
-    width: 280px !important;
-    padding: 12px 10px;
-    font-size: 12px;
-}
-.signup-left-description-detail{
-    gap: 20px;
-}
-.signup-left-description-detail h2{
-    font-size: 24px;  
-    line-height: 32.5px;
-}
-.signup-left-description-detail p{
-    width: 300px;
-    font-size: 12px;  
-}
-.slider2-div{
-    width: 100%;
-    padding: 40px 100.5px 14px 140.5px !important;
-}
-.signup-bottom-last-div{
-    margin-top: 30px;
-}
-}
-
-@media screen and (max-width:600px) {
-    .signup-main-container{
+@media screen and (max-width:750px) {
+    /* .signup-main-container{
         max-width: 100%;
-        /* height: 1024px; */
         display: flex;
         flex-direction: column;
         align-items: center;
         box-sizing: border-box;
+    } */
+    .signup-right-inner-div{
+        padding: 30px 25px 14px 25px;
     }
     .signup-right-div{
         max-width: 100%;
@@ -582,48 +442,131 @@
     }
     .signup-right-inner-bottom-div{
         max-width: 100%;
-        height: 587px;
+        height: 400px;
     }
     .label-input-div input{
         width: 100% !important;
     }
-    .signup-left-varificaton-code{
-        max-width: 100%;
-        background: rgba(236, 237, 241, 1);
-        margin-top: 50px;
+}
+
+@media screen and (max-width:700px) {
+    .signup-right-inner-div{
+        padding: 30px 25px 14px 25px;
+        box-sizing: border-box;
     }
-   .signup-left-div-pic img{
-       width: 100%;
-   }
-   .signup-left-descripton{
-    padding: 0px 25px 46.5px 90px;
+    .label-input-div{
+        max-width: 100% !important;
+    }
+    .label-input-div input{
+        max-width: 100% !important;
+        padding: 16px 10px !important;
+        font-size: 14px;
+    }
+    .signup-right-div{
+        max-width: 100%;
+    }
+    .signup-right-inner-detail-d p{
+        max-width: 100%;
+        font-size: 14px !important;
+    }
+    .signup-right-inner-bottom-div{
+        max-width: 400px;
+        height: 750px;
+        box-sizing: border-box;
+    }
+    .label-input-div input{
+        width: 400px !important;
+    }
+    .signup-btn{
+        max-width: 310px;
+        gap: 5px;
+        padding: 19px 8px;
+        margin-left: 20px;
+    }
+    .signup-bottom-last-div-link{
+        max-width: 340px;
+        justify-content: center;
+        gap: 5px;
+    }
+    .label-input-div1 p{
+        font-size: 12px;
+    }
 }
-.signup-bottom-last-div{
-    margin-top: 30px;
-}
-}
+
+
+
 
 
 
 @media screen and (max-width:360px) {
+    .signup-right-inner-top-div{
+        padding: 0px 0px 20px 0px;
+    }
+    .label-input-div{
+        max-width: 280px !important;
+        padding: 16px 10px !important;
+    }
+    .label-input-div input{
+        max-width: 280px !important;
+       
+        font-size: 14px;
+    }
     .signup-right-inner-detail-d h2{
         font-size: 18px !important;    
     }
     .signup-right-inner-detail-d p{
-        width: 100%;
-        font-size: 12px !important;  
+        max-width: 100%;
+        font-size: 12px !important;
+        line-height: 16px;
     }
-   .signup-left-description-detail{
-    gap: 5px;
-    margin: 50px 25px 30px 25px;
+    .signup-right-inner-bottom-div{
+        max-width: 100%;
+        height: 750px;
+        box-sizing: border-box;
+    }
+    .label-input-div input{
+        width: 100% !important;
+    }
+    .box{
+        width: 20px !important;
+        height: 20px;
+    }
+    .label-input-div1 p{
+        font-size: 10px !important;
+        line-height: 12.07px;  
+    }
+    .signup-btn{
+        max-width: 260px !important;
+        gap: 5px;
+        padding: 19px 8px;
+        margin-left: 20px;
+    }
+    .signup-bottom-last-div-link{
+        max-width: 320px;
+        justify-content: center;
+        gap: 5px;
+    }
+    .signup-bottom-last-div-link p{
+         font-size: 12px;
+    }
+    .signup-bottom-last-div-link a{
+        font-size: 12px;
    }
-   .signup-left-description-detail h2{
-    font-size: 20px !important;   
+    .label-input-div1 p{
+        font-size: 12px;
+    }
+    .label-input-div1{
+        padding-left: 0px;
+     }
+     .signup-btn{
+         max-width: 270px;
+         gap: 5px;
+         padding: 19px 8px;
+         margin-left: 10px;
+     }
+
 }
-.signup-left-description-detail p{
-    font-size: 12px;  
-}
-   .signup-left-descripton{
-    padding: 0px 50px 46.5px 0px;
-}
-}
+
+
+
+

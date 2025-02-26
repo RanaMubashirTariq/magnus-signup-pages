@@ -19,6 +19,8 @@ export default function SignUpPage() {
       const [telegramUsername , SetTelegramUsername]= useState('')
       const [referralCode , SetReferralCode] = useState('')
       const [showPassword, setShowPassword] = useState(false);
+      const [showConfirmPassword, setShowConfirmPassword] = useState(false);
+      const [showTelegramUser, setShowTelegramUser] = useState(false);
 
       const signUp = async () => {
           if(!fullName || !email || !password || !confirmPassword  || !telegramUsername || !referralCode){
@@ -82,7 +84,7 @@ export default function SignUpPage() {
                                     <div className='signup-right-inner-bottom-div'>
                                                     <div className='label-input-div'>
                                                     <label>Full Name</label>
-                                                    <input onChange={(e)=>SetFullName(e.target.value)} type="text" placeholder='Enter Your name'/>
+                                                    <input onChange={(e)=>SetFullName(e.target.value)} type="text" placeholder='Enter Your name' />
                                                     </div>
 
                                                     <div className='label-input-div'>
@@ -111,13 +113,13 @@ export default function SignUpPage() {
                                                 <label>Confirm Password</label>
                                                 <div className='icon-d'>
                                                    <input onChange={(e)=>SetConfirmPassword(e.target.value)} 
-                                                       type={showPassword ? "text" : "password"}
+                                                       type={showConfirmPassword ? "text" : "password"}
                                                    placeholder='Enter confirm Password...'  />   
                                                    <div
                                                               className="toggle-btn"
-                                                              onClick={() => setShowPassword(!showPassword)}
+                                                              onClick={() => setShowConfirmPassword(!showConfirmPassword)}
                                                             >
-                                                              {showPassword ? <i class="fa-solid fa-eye"/> : <i class="fa-solid fa-eye-slash"/>} 
+                                                              {showConfirmPassword ? <i class="fa-solid fa-eye"/> : <i class="fa-solid fa-eye-slash"/>} 
                                                             </div>
                                                 
                                                 </div>
@@ -127,13 +129,13 @@ export default function SignUpPage() {
                                                     <div className='label-input-div'>
                                                     <label>Telegram Username</label>
                                                     <div className='icon-d'>
-                                                      <input onChange={(e)=>SetTelegramUsername(e.target.value)} type={showPassword ? "text" : "password"} placeholder='Enter confirm Password...'/>
+                                                      <input onChange={(e)=>SetTelegramUsername(e.target.value)} type={showTelegramUser ? "text" : "password"} placeholder='Enter confirm Password...'/>
                                                     
                                                       <div
                                                                 className="toggle-btn"
-                                                                onClick={() => setShowPassword(!showPassword)}
+                                                                onClick={() => setShowTelegramUser(!showTelegramUser)}
                                                               >
-                                                                {showPassword ? <i class="fa-solid fa-eye"/> : <i class="fa-solid fa-eye-slash"/>} 
+                                                                {showTelegramUser? <i class="fa-solid fa-eye"/> : <i class="fa-solid fa-eye-slash"/>} 
                                                               </div>
 
                                                     </div>

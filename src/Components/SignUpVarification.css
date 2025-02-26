@@ -54,7 +54,7 @@
     justify-content: space-between;
     gap: 10px;
 }
-.label-input-div-2{
+.label-v-input-div-2{
     width: 100px !important;
     height: 100px;
     border-radius: 12px;
@@ -63,7 +63,7 @@
     background: rgba(251, 251, 251, 1);
     border: 1px solid rgba(240, 240, 240, 1);
 }
-.label-input-div-2:focus{
+.label-v-input-div-2:focus{
     background: rgba(255, 255, 255, 1);
     border: 1px solid rgba(30, 30, 36, 1);
     box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.15);
@@ -90,7 +90,6 @@
     height: 81px;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     gap: 16px;
     margin-top: 50px;
 }
@@ -217,7 +216,7 @@
 
 
 
-@media screen and (max-width:1024px) {
+ @media screen and (max-width:1024px) {
     .signup-v-right-div{
         max-width: 500px;
     }
@@ -234,11 +233,7 @@
     max-width: 390px;
     font-size: 14px !important;
 }
-.signup-v-right-inner-bottom-div{
-    max-width: 390px;
-    height: 587px;
-}
-.label-input-div input{
+.label-input-div{
     width: 360px !important;
     padding: 16px 24px;
     font-size: 14px;
@@ -272,118 +267,90 @@
     width: 100%;
     padding: 40px 170.5px 0px 170.5px;
 }
-}
+} 
 
 
-@media screen and (max-width:990px) {
-    .signup-right-div{
-        max-width: 450px;
+@media screen and (max-width:1000px) {
+    .signup-v-right-div{
+        max-width: 690px;
+        margin: 0 auto;
     }
     .signup-v-right-inner-div{
-        padding: 120.5px 25px
+        padding: 70.5px 50px 60px 50px;
     }
-
-.signup-right-inner-detail-d h2{
-    font-size: 22px;
-}
-.signup-right-inner-detail-d p{
+    .signup-v-right-inner-detail-d{
+        padding-top: 30px;
+    }
+   .signup-v-right-inner-detail-d h2{
+    font-size: 25px;
+   }
+   .signup-v-right-inner-detail-d p{
     max-width: 360px;
     font-size: 14px !important;
-}
-.label-input-div-2 input{
-    width: 75px ;
+   }
+   .label-v-input-div-2 {
+    width: 75px !important;
     height: 75px;
     border-radius: 12px;
     padding: 16px 24px;
-    font-size: 35px;
+    font-size: 32px;
     background: rgba(251, 251, 251, 1);
     border: 1px solid rgba(240, 240, 240, 1);
 }
-
-   /* part 2 */
-
-   .signup-left-varificaton-code{
-    max-width: 481px;
-    background: rgba(236, 237, 241, 1);
-}
-.signup-left-div-pic{
-     width: 100%;
-     padding: 40px 25px 48.5px 25px;
-}
-.signup-left-div-pic img{
-    width: 400px;
-}
-.signup-left-descripton{
-    /* width: 489px; */
-    padding: 50px 25px 148.5px 25px;
-    /* height: 193; */ 
-}
-.signup-left-description-detail{
-    max-width: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
-.signup-left-description-detail h2{
-    font-size: 24px;  
-    line-height: 32.5px;
-}
-.signup-left-description-detail p{
-    width: 300px;
-    font-size: 12px;  
-}
-.slider2-div{
-    width: 100%;
+.signup-v-right-inner-div{
     margin: 0 auto;
 }
+.signup-v-btn{
+    max-width: 330px;
 }
-
-
-
-
-@media screen and (max-width:770px) {
-    .signup-v-main-container{
-         overflow: hidden;
-    }
-    .signup-v-right-div{
-        max-width: 380px;
-    }
-    .signup-v-right-inner-bottom-div{
-       gap: 10px;
-    }
-                /* part 2 */
+.signup-v-bottom-last-div-2 button{
+    margin: 0px 0px 0px 25px;
+}
+.signup-v-bottom-last-div-2{
+    margin-top: 30px;
+}
    .signup-v-left-varificaton-code{
-    max-width: 420px;
-    background: rgba(236, 237, 241, 1);
+   display: none;
 }
-.signup-v-left-div-pic{
-     width: 100%;
-     padding: 35px 35px 0px 54px;
 }
-.signup-v-left-div-pic img{
-    width: 330px;
-}
-.signup-v-right-inner-detail-d p{
-    max-width: 300px;
+
+
+
+
+@media screen and (max-width:550px) {
+    .signup-v-main-container{
+        overflow: hidden;
+   }
+    .signup-v-right-div{
+        max-width: 100%;
+    }
+    .signup-v-right-inner-div{
+        padding: 30.5px 25px 30px 25px;
+    }
+    .signup-v-right-inner-detail-d{
+        padding-top: 20px;
+    }
+   .signup-v-right-inner-detail-d h2{
+    font-size: 22px;
+    line-height: 25.48px;
+   }
+   .signup-v-right-inner-detail-d p{
+    max-width: 360px;
     font-size: 14px !important;
+   }
+   .label-v-input-div-2{
+    width: 50px !important;
+    height: 50px;
+    font-size: 24px;
 }
-.signup-v-left-description-detail h2{
-    font-size: 24px;  
-    line-height: 32.5px;
-}
-.signup-v-left-description-detail p{
-    width: 300px;
-    font-size: 12px;  
-}
-.slider2-v-div{
-    width: 100%;
-    padding: 40px 100.5px 14px 100.5px !important;
-}
+ .signup-v-btn{
+    gap: 5px;
+    padding: 12px 8px;
+} 
+
 }
 
-
-@media screen and (max-width:600px) {
+/* @media screen and (max-width:600px) {
     .signup-v-main-container{
         overflow: visible;
    }
@@ -406,54 +373,63 @@
         max-width: 100%;
         font-size: 14px !important;
     }
-    .signup-v-left-varificaton-code{
-        max-width: 100%;
-        background: rgba(236, 237, 241, 1);
-        margin-top: 50px;
+} */
+
+
+
+@media screen and (max-width:428px) {
+    .signup-v-right-inner-detail-d{
+        gap: 10px;
     }
-   .signup-v-left-div-pic img{
-       width: 100%;
-   }
-   .signup-v-left-descripton{
-    padding: 0px 25px 46.5px 90px;
-  }
+    .signup-v-right-inner-detail-d p{
+        max-width: 100%;
+        font-size: 11px !important;
+        line-height: 15px;
+    } 
    .signup-v-bottom-last-div{
     margin-top: 30px;
   }
   .signup-v-bottom-last-div-2{
-    margin: 0 auto;
     margin-top: 30px;
   }
+.signup-v-bottom-last-div-link-2 p{
+    font-size: 13px;
+    line-height: 17.07px;
+}
+.signup-v-bottom-last-div-link-2 a{
+    font-size: 13px;
+    line-height: 17.07px;
+}
 }
 
 
+/* @media screen and (max-width:348px) {
+  .signup-v-bottom-last-div-2 button{
+    margin: 0px 0px 0px 30px !important;
+}
+.signup-v-btn{
+    max-width: 230px;
+    gap: 5px;
+    padding: 12px 8px;
+}
+.signup-v-bottom-last-div-link-2 p{
+    font-size: 13px;
+    line-height: 17.07px;
+}
+.signup-v-bottom-last-div-link-2 a{
+    font-size: 13px;
+    line-height: 17.07px;
+}
+
+} */
 
 
 
 @media screen and (max-width:380px) {
-    .signup-v-right-inner-detail-d p{
-        max-width: 100%;
-        font-size: 14px !important;
-    }
-    .signup-v-left-varificaton-code{
-        max-width: 100%;
-        background: rgba(236, 237, 241, 1);
-        margin-top: 50px;
-    }
-   .signup-v-left-div-pic img{
-       width: 100%;
-   }
-   .signup-v-left-descripton{
-    padding: 0px 25px 46.5px 25px;
+    .signup-v-bottom-last-div-2 button{
+      margin: 0px 0px 0px 0px !important;
   }
-   .signup-v-bottom-last-div{
-    margin-top: 30px;
+  
   }
-  .signup-v-bottom-last-div-2{
-    margin: 0 auto;
-    margin-top: 30px;
-  }
-}
-
 
 

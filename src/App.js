@@ -7,7 +7,7 @@ import {BrowserRouter as Router , Route, Routes} from 'react-router-dom'
 
 function App() {
   return (
-     <dic className='App'>
+     <div className='App'>
     <Router>
              <Routes>
              <Route path='/' element={<SignUpPage/>}/>
@@ -16,8 +16,10 @@ function App() {
                   <Route path='/SignUpVarification' element={<SignUpVarification/>}/>
              </Routes>
     </Router>
+    {/* <SignUpVarification/> */}
+    {/* <SignInPage/> */}
 
-     </dic>
+     </div>
   );
 }
 
