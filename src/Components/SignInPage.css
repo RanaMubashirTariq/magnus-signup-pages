@@ -1,10 +1,12 @@
 .signin-main-container{
     max-width: 100%;
     display: flex;
+    justify-content: center;
     box-sizing: border-box;
+    /* overflow-x: hidden; */
 }
 .signin-right-div{
-    /* width: 50%; */
+    width: 690px;
     background: rgb(252, 254, 251);
     box-sizing: border-box;
 }
@@ -184,7 +186,7 @@
 /*  part 2 */
 
 .signin-left-varificaton-code{
-    /* width: 50%; */
+    width: 750px;
     background: rgba(236, 237, 241, 1);
 }
 .signin-left-div-pic{
@@ -338,31 +340,36 @@
 
 
 @media screen and (max-width:1000px) {
-    /* .signin-main-container{
+    .signin-main-container{
         display: flex;
         justify-content: center;
-
-    } */
+        /* overflow-x: hidden; */
+    }
     .signin-right-div{
-        max-width:420px;
+        max-width:100%;
         margin: 0 auto;
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
     }
     .signin-right-inner-div{
-        padding: 70.5px 50px 70.5px 50px;
+        /* padding: 70.5px 50px 70.5px 50px; */
+        box-sizing: border-box;
     }
     .signin-right-inner-detail-d{
         gap: 10px;
         padding-top: 30px;
     }
 .signin-right-inner-detail-d p{
-    max-width: 100%;
+    max-width: 420px;
     font-size: 12px !important;
 }
 .signin-right-inner-bottom-div{
     max-width: 350px;
     gap: 10px;
 }
+/* .label-input-div{
+    width: 350px;
+    padding: 16px 10px !important;
+} */
 .label-input-div input{
     width: 100% !important;
     padding: 16px 10px;
@@ -378,6 +385,7 @@
 }
 .signin-bottom-last-div button{
     margin: 30px 0px 0px 15px;
+    /* margin-right: auto; */
 }
    /* part 2 */
 
@@ -394,7 +402,7 @@
         padding: 30.5px 25px 30.5px 25px;
     }
     .signin-right-div{
-        max-width: 100%;
+        max-width: 100% !important;
     }
     .signin-right-inner-detail-d p{
         max-width: 100%;
@@ -436,7 +444,7 @@
 @media screen and (max-width:344px) {
 
     .signin-right-inner-div{
-        padding: 30.5px 0px 30.5px 25px !important;
+        padding: 30.5px 10px 30.5px 15px !important;
     }
 }
 
