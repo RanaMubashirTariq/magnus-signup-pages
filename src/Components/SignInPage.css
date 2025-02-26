@@ -403,7 +403,7 @@
 
 @media screen and (max-width:600px) {
       .signin-main-container{
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .signin-right-inner-div{
         padding: 30.5px 25px 30.5px 25px;
