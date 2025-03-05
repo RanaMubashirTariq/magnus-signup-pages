@@ -51,6 +51,9 @@ export default function SignUpVarification() {
       };
           
 
+
+      
+
   return (
     <div className='signup-v-main-container'>
           <div className='signup-v-right-div'>
@@ -107,6 +110,22 @@ export default function SignUpVarification() {
                          <div className='slider2-div'><img src="/Pictures/slider2.svg" alt="" /></div>
                     </div>
             </div>
+
+
+
+            {showBox && (
+              <div className='showBox'>
+                  <p className='first-section'>🎉</p>
+                  <div className='second-section'>
+                     <h3>Your account
+                     successfully created</h3>
+                     <p>Your Magnus Capital account created successfully.</p>
+                  </div>
+                  <button>Awesome, Login</button>
+              </div>
+            )
+
+            }
     </div>
   )
 }
