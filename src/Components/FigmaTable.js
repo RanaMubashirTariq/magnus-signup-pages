@@ -9,7 +9,7 @@ export default function FigmaTable() {
         { 
           id: 1, 
           userId: "119000", 
-          avatar: "https://i.pravatar.cc/40?img=1", 
+          avatar: "/Pictures/pic1.svg", 
           email: "Sa***@gm***.com", 
           date: "12 Aug 2024", 
           level: "Level 1", 
@@ -21,7 +21,7 @@ export default function FigmaTable() {
         { 
           id: 2, 
           userId: "119001", 
-          avatar: "https://i.pravatar.cc/40?img=2", 
+          avatar: "/Pictures/pic2.svg", 
           email: "Sa***@gm***.com", 
           date: "12 Aug 2024", 
           level: "Level 1", 
@@ -33,7 +33,7 @@ export default function FigmaTable() {
         { 
           id: 3, 
           userId: "119002", 
-          avatar: "https://i.pravatar.cc/40?img=3", 
+          avatar:"/Pictures/pic3.svg",  
           email: "Sa***@gm***.com", 
           date: "12 Aug 2024", 
           level: "Level 2", 
@@ -45,7 +45,7 @@ export default function FigmaTable() {
         { 
           id: 4, 
           userId: "119003", 
-          avatar: "https://i.pravatar.cc/40?img=4", 
+          avatar:"/Pictures/pic4.svg", 
           email: "Sa***@gm***.com", 
           date: "12 Aug 2024", 
           level: "Level 2", 
@@ -57,7 +57,7 @@ export default function FigmaTable() {
         { 
           id: 5, 
           userId: "119004", 
-          avatar: "https://i.pravatar.cc/40?img=5", 
+          avatar: "/Pictures/pic1.svg",  
           email: "Sa***@gm***.com", 
           date: "12 Aug 2024", 
           level: "Level 2", 
